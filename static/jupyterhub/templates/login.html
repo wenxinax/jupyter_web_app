@@ -27,8 +27,16 @@
 
     <p id='insecure-login-warning' class='hidden'>
     Warning: JupyterHub seems to be served over an unsecured HTTP connection.
-    We strongly recommend enabling HTTPS for JupyterHub.
+    We strongly recommend enabling HTTPS for JupyterHub.hhh
     </p>
+    <btn class="btn btn-danger" onclick="ccc()">
+      zz
+    </btn>
+    <script>
+      function ccc() {
+          alert("hhh")
+      }
+      </script>
 
     {% if login_error %}
     <p class="login_error">
